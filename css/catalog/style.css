@@ -1,0 +1,26 @@
+.main{
+    margin-left: 11%;
+    margin-top: 10%;
+
+}
+
+.header__catalog__items{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 100px;
+}
+
+.catalog__body{
+}
+
+.small__image{
+
+}
+
+.long__image{
+   width: 584px;
+   height: 200px;
+   border-radius: 4px; 
+   color: white;
+   object-fit: cover;
+}
