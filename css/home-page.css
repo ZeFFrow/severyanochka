@@ -1,0 +1,5 @@
+@import "./home-sections/hero.css";
+@import "./home-sections/maps.css";
+@import "./home-sections/products.css";
+@import "./home-sections/product.css";
+@import "../home-sections/article.css"
