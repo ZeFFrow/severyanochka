@@ -1,3 +1,6 @@
+.catalog__body{
+}
+
 .main{
     margin-left: 11%;
     margin-top: 10%;
@@ -5,22 +8,69 @@
 }
 
 .header__catalog__items{
+    margin-left: 40px;
     font-weight: 700;
     font-size: 64px;
     margin-bottom: 100px;
 }
 
-.catalog__body{
+.row{
+}
+
+
+.long__card{
+    float: left;
+    position: relative;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 584px;
+    height: 200px;
+    -webkit-box-shadow: 0px -80px 10px -2px rgba(112, 192, 91, 0.7) inset;
+    -moz-box-shadow: 0px -80px 10px -2px rgba(112, 192, 91, 0.7) inset;
+    box-shadow: 0px -80px 10px -2px rgba(112, 192, 91, 0.7) inset;
+}
+
+.small__card{
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 272px;
+    height: 200px;
+    -webkit-box-shadow: 0px -80px 10px -2px rgba(112, 192, 91, 0.7) inset;
+    -moz-box-shadow: 0px -80px 10px -2px rgba(112, 192, 91, 0.7) inset;
+    box-shadow: 0px -80px 10px -2px rgba(112, 192, 91, 0.7) inset;
 }
 
 .small__image{
-
+    display: block;
+    z-index: -1;
+    width: 272px;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+    position: relative;
 }
 
 .long__image{
-   width: 584px;
-   height: 200px;
-   border-radius: 4px; 
-   color: white;
-   object-fit: cover;
+    display: block;
+    z-index: -1;
+    width: 584px;
+    height: 200px;
+    border-radius: 4px; 
+    object-fit: cover;
+    position: relative;
 }
+
+
+.text__card{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    z-index: 1;
+    margin-top: -30px;
+    margin-left: 10px;
+    position: relative;
+    line-height: 150%;
+}
+
